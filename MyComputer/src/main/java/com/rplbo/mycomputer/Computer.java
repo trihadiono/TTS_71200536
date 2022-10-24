@@ -28,4 +28,6 @@ public class Computer {
 
     }
 
+    public void retrieveData(String data) {
+    }
 }
