@@ -7,13 +7,19 @@ public class Computer {
     private Storage storage;
 
     public Computer (Storage storage){
-
+        this.ID=GlobalID;
+        this.storage = storage;
     }
     public Storage getStorage(){
         return storage;
     }
     public boolean detachCableData(){
-        if
+        if (this.cableData!=null){
+            this.cableData.detach(this);
+            this.cableData=null;
+            return true;
+        }
+        return false;
     }
     public void retrieveData(String){
 
@@ -29,5 +35,8 @@ public class Computer {
     }
 
     public void retrieveData(String data) {
+    }
+
+    public boolean attachCableData(CableData robot) {
     }
 }
