@@ -82,7 +82,7 @@ public class Main {
             }
         }
         System.out.println();
-        Item it = new Item(bukuygdibeli,kertasygdibeli,pulpenygdibeli);
+        Item it = new Item(kertasygdibeli, bukuygdibeli,pulpenygdibeli);
         Nota nota1 = new Nota("N001","Antonius Rachmat", "0812111222",it);
         nota1.tampilNota();
         System.out.println("TOTAL BAYAR: "+nota1.hitungTotalBayar());

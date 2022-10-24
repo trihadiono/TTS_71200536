@@ -11,10 +11,21 @@ public class Item {
         this.pen = pen;
     }
      public int getJumlahBukuTulis(){
-
+        return BukuTulis[];
      }
      public int getJumlahPen(){
-        
+        return Pulpen[];
      }
 
+    public KertasHVS[] getKrhvs() {
+        return krhvs;
+    }
+
+    public BukuTulis[] getBktls() {
+        return bktls;
+    }
+
+    public Pulpen[] getPen() {
+        return pen;
+    }
 }
