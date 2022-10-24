@@ -3,10 +3,9 @@ package com.rplbo.utsnota;
 public class BukuTulis extends Barang{
     private String merk;
 
-    public BukuTulis(String string, int in, String string1, String string2){
-        super(Barang);
+    public BukuTulis(String string, int in, String string2) {
+        super(string, in, string2);
     }
-
     public String getMerk() {
         return merk;
     }
