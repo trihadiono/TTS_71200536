@@ -5,7 +5,7 @@ public class Nota {
     private String notelppembeli;
     private String items;
     private String namapembeli;
-    
+
     public String getNonota() {
         return nonota;
     }
